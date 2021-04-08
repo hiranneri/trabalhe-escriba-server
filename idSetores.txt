@@ -1,0 +1,5 @@
+                 id                   |      nome
+--------------------------------------+-----------------
+ e3489f48-9737-4639-9e94-9d2f18c29045 | Administrativas
+ 08924a21-7c2e-41d4-b3bc-17d5a6bbaf12 | Comerciais
+ a7d0ebc6-79e6-45d9-afbb-13541ecc60fa | Técnicas

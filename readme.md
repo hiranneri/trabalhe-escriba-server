@@ -17,12 +17,18 @@ POST (Cadastra uma nova vaga, devendo seguir os seguintes parâmetros) - http://
 - Body: JSON
 Exemplo:
 {
+	"setor":"Comerciais",
 	"datapublicacao":"2021-01-01",
 	"descricao":"Gerente de desenvolvimento",
 	"requisitos":"REQUISITOS: Formação em cursos superiores na área de tecnologia; conhecimento de orientação a objetos; experiência da linguagem JAVA e Spring, JPA, Maven, Hibernate, Conhecimento de Rest API bem como bom domínio em ferramenta de versionamento (Git). Desejável conhecimento em Docker/Kubernetes, serviços em nuvem; automação de testes unitários e integrações; design Pattern e aplicações/serviços distribuídos.",
 	"atividades":"ATIVIDADES: Programar de acordo com especificações de análise; sugerir programações para atualizações e melhorias dos sistemas atuais; realizar testes unitários para a validação da programação.",
 	"beneficios":"BENEFÍCIOS: Vale transporte + Vale refeição/alimentação + Plano de Saúde + Plano Odontológico + Seguro de Vida + Convênio Farmácia + Auxílio Educação + Auxílio Creche"
 }
+* O campo "setor", poderá ser enviado como:
+Comerciais;
+Administrativas;
+Técnicas;
+
 </code></br>
 
 # Tecnologias Usadas:

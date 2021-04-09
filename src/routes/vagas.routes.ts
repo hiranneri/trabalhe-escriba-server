@@ -11,13 +11,13 @@ vagasRouter.post('/', async(request,response)=>{
        let nomeSetor = setor;
        switch (setor) {
            case 'Administrativas':
-                setor='e3489f48-9737-4639-9e94-9d2f18c29045';
+                setor=process.env.ID_ADMNISTRATIVAS;
                 break;
             case 'Comerciais':
-                setor='08924a21-7c2e-41d4-b3bc-17d5a6bbaf12';
+                setor=process.env.ID_COMERCIAIS; 
                 break;
             case 'Técnicas':
-                setor='a7d0ebc6-79e6-45d9-afbb-13541ecc60fa';
+                setor= process.env.ID_TECNICAS;
                 break;
            default:
                setor='';

@@ -1,6 +1,6 @@
 console.log('Ambiente: '+ process.env.DATABASE_URL)
 module.exports = {
-  "url": process.env.DATABASE_URL,
+  "url": process.env.DATABASE_URL, 
   "type": "postgres",
   "entities": [
     process.env.ENTITIES_URL
